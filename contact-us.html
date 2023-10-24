@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - kalam-e-zuban</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        
+        /* Reset some default styles */
+body, h1, h2, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the contact form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container{
+              
+              text-align: center;
+              font-weight:bold;
+              font-size:20px;
+              
+              padding:10px;
+           
+          }
+          
+          .container ul li{
+              padding:5px;
+              
+          }
+          
+          .container ul li a{
+              color:white;
+              text-decoration: none;
+          }
+
+        
+    </style>
+    
+    
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <section class="contact-form">
+        <h2>Get in Touch</h2>
+        <form action="process_contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        
+        
+           <!-- footer -->
+        
+            
+            
+           <footer>
+    <div class="container">
+        <div>
+           <ul>  
+             <li>
+                 <a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/image.html">Home</a>
+                 </li>
+             <li>
+                 <a href="content://com.android.externalstorage.documents/tree/primary%3AIndex%2Findex.image/document/primary%3AIndex%2Findex.image%2Fabout-us.html">About Us</a>
+                 </li>
+             <li>
+                 <a href="content://com.android.externalstorage.documents/tree/primary%3AIndex%2Findex.image/document/primary%3AIndex%2Findex.image%2Fcontact-us.html">contact us</a>
+                 </li>
+          </ul>
+    </div>
+</footer>
+            
+       
+        
+        <div class="copy-right">
+                <p>copyright &copy 2023 | Kalam-e-Zubaan</p>
+            </div>
+        <!-- footer -->
+        
+        
+    
+</body>
+</html>
