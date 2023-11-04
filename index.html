@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 
 
 <html>
@@ -16,6 +17,7 @@
               background: lightgray;
                 padding:0;
                 margin:0;
+                 font-size: 17px;
           font-family: 'Noto Nastaliq Urdu', serif;  
             }
             
@@ -25,6 +27,7 @@
                 color:#7aff00;
                 padding:10px;
                 margin-bottom:5px;
+                font-size: 30px;
                 
             }
 
@@ -75,11 +78,13 @@ ul.menu {
     
 }
 
-li {
+li{
     margin: 10 20px;
      color: black;
-     background-color: red;
+   background: lightgray;
      padding: 5px;
+     font-size: 20px;
+     
    
     
 
@@ -87,9 +92,9 @@ li {
 
 a {
     text-decoration: none;
-    background-color: red;
+    background: lightgray;
     font-weight: bold;
-      font-size: 38px;
+      font-size: 308px;
       
     
     
@@ -118,9 +123,41 @@ a {
    
     }
 }
-        
-        
-      
+
+<button class="menu-button">Menu</button>
+
+
+  /* styling rules for desktop screens */
+  .menu-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  /* styling rules for mobile screens */
+  @media screen and (max-width: 768px) {
+    .menu-button {
+      display: block;
+      width: 100%;
+    }
+  }
+
+
+    @media screen and (max-width: 768px) {
+  /* styling rules for mobile screens */
+  .menu-button {
+    display: block;
+    width: 100%;
+  }
+}
+  
+    
                  
                   
         .poetry p{
@@ -130,6 +167,8 @@ a {
               text-align:right;
               padding:5px;
           }
+          
+          
           
             .image{
                         width:90%;
@@ -228,7 +267,7 @@ a {
        
       
     <h1 class="logo"> 
-    Allama Iqbal poetry
+    kalam-e-zubaan
     </h1>
 
    
@@ -239,16 +278,16 @@ a {
             <div class="bar"></div>
         </div>
         <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-          <li><a href="contact-us.html">Contact Us</a></li>
-            <li><a href="index.html">شاعری</a></li>
+            <li><a href="index.html"> Home </a></li>
+           <li><a href="about-us.html"> About Us </a></li>
+         <li><a href="contact-us.html"> Contact Us  </a></li>
+            <li><a href="index.htm">شاعری</a></li>
             <li><a href="ghazlain.html">غزلیں</a></li>
         </ul>
     </nav>
 
 <div class="banner">
- <img src="image/banner.jpg"  width="100%">
+ <img src="banner.jpg"  width="100%">
 </div>
 
     
@@ -620,39 +659,39 @@ a {
          </div>
          
            <div>
-        <img src="image/p1.jpg" class="image",
+        <img src="p1.jpg" class="image",
                 alt="image loading">
-        <img src="image/p2.jpg" class="image",
+        <img src="p2.jpg" class="image",
                 alt="image loading">
-        <img src="image/p3.jpg" class="image",
+        <img src="p3.jpg" class="image",
                 alt="image loading">
-        <img src="image/p4.jpg" class="image",
+        <img src="p4.jpg" class="image",
                 alt="image loading">
-        <img src="image/p5.jpg" class="image",
+        <img src="p5.jpg" class="image",
                 alt="image loading">
-        <img src="image/p6.jpg" class="image",
+        <img src="p6.jpg" class="image",
                 alt="image loading">
-        <img src="image/p7.jpg" class="image",
+        <img src="p7.jpg" class="image",
                 alt="image loading">
-        <img src="image/p8.jpg" class="image",
+        <img src="p8.jpg" class="image",
                 alt="image loading">
-        <img src="image/p9.jpg" class="image",
+        <img src="p9.jpg" class="image",
                 alt="image loading">
-        <img src="image/p10.jpg" class="image",
+        <img src="p10.jpg" class="image",
                 alt="image loading">
-        <img src="image/p11.jpg" class="image",
+        <img src="p11.jpg" class="image",
                 alt="image loading">
-        <img src="image/p12.jpg" class="image",
+        <img src="p12.jpg" class="image",
                 alt="image loading">
-        <img src="image/p13.jpg" class="image",
+        <img src="p13.jpg" class="image",
                 alt="image loading">
-        <img src="image/p14.jpg" class="image",
+        <img src="p14.jpg" class="image",
                 alt="image loading">
-        <img src="image/p15.jpg" class="image",
+        <img src="p15.jpg" class="image",
                 alt="image loading">
-        <img src="image/p16.jpg" class="image",
+        <img src="p16.jpg" class="image",
                 alt="image loading">
-        <img src="image/p17.jpg" class="image",
+        <img src="p17.jpg" class="image",
                 alt="image loading">
         
         </div>
